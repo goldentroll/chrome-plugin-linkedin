@@ -1,0 +1,108 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+#url{
+  align-items: center;
+}
+
+#updatedDate{
+  float: right;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.column {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#column1{
+  width: 180px;
+  margin: 0 10px;
+  padding: 20px 20px;
+}
+#column2{
+  width: 500px;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 15px 0 10px;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 0 0 10px;
+}
+
+h4 {
+  font-size: 14px;
+  margin: 0 0 10px;
+}
+
+h5 {
+  font-size: 14px;
+  margin: 10px 0 10px;
+}
+
+h6 {
+  font-size: 14px;
+  margin: 10px 0 5px;
+}
+
+p {
+  margin: 0 0 10px;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #337ab7;
+  text-decoration: none;
+  margin: 0 10px 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto; /* define two column layout */
+  gap: 20px; /* space between grid items */
+}
+
+.grid-item {
+  padding: 10px;
+}
